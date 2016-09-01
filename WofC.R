@@ -9,13 +9,17 @@
 
 getwd()
 setwd("/Users/lugarcia/Desktop/")
+
+###############CLEAN DATA!!!
+
+pfd_data <- read.csv("pfdasset.csv")
+
 dim(pfd_data)
+
 ##tells how many objects and variables, e.g. 391212 obs. of  68 variables
 str(pfd_data)
 length(pfd_data)
 nchar(pfd_data)
-
-pfd_data <- read.csv("pfdasset.csv")
 
 ##looking at pfd_data
 head(pfd_data)
